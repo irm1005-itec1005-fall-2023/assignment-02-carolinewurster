@@ -1,8 +1,3 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fb8500;
@@ -11,9 +6,72 @@ body {
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+topnav {
+  background-color: #597686;
+  overflow: hidden;
 }
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #597686;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #597686;
+  color: white;
+}
+
+h2{
+    color:#597686
+}
+
+.container{
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    padding: 1rem;
+    width: 350px;
+    height: 250px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+
+    }
+
+    .container2{
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    padding: 1rem;
+    width: 350px;
+    height: 80px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+
+    }
+
+    .container3{
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    padding: 1rem;
+    width: 350px;
+    height: 190px;
+    box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+    border-radius: 0.9rem;
+
+    }
+
+    .copyright{
+        font-size:10px;
+        align-items:center;
+        justify-content:center;
+    }
