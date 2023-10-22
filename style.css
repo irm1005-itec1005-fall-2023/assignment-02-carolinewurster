@@ -6,14 +6,14 @@ body {
   align-items: center;
 }
 
-topnav {
+.topnav {
   background-color: #597686;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -59,7 +59,7 @@ h2{
     }
 
     .container3{
-    position: relative;
+    position:relative;
     align-items:center;
     justify-content:center;
     padding: 1rem;
